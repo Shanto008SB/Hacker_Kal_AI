@@ -1,6 +1,6 @@
 # 🎯 Hacker_Kal_AI - Bug Bounty Assistant
 
-আপনার নৈতিক হ্যাকিং যাত্রার জন্য AI-চালিত গাইড।
+Your AI-powered guide for ethical hacking and bug bounty hunting.
 
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen)
 ![License](https://img.shields.io/badge/License-MIT-blue)
@@ -11,163 +11,167 @@
 
 **Live URL**: https://shanto008sb.github.io/Hacker_Kal_AI/
 
-## 📋 সম্পর্কে
+## 📋 About
 
-Hacker_Kal_AI একটি ইন্টারঅ্যাক্টিভ ওয়েব অ্যাপ্লিকেশন যা বাগ বাউন্টি শিকারীদের নৈতিক হ্যাকিং এ সাহায্য করে। এটি সুগঠিত ওয়ার্কফ্লো, প্রয়োজনীয় টুলস এবং কমান্ড উদাহরণ প্রদান করে।
+Hacker_Kal_AI is an interactive web application that helps bug bounty hunters with ethical hacking. It provides structured workflows, recommended tools, and command examples to guide your security testing journey.
 
-## ✨ বৈশিষ্ট্য
+## ✨ Features
 
-- 🤖 **AI-চালিত সহায়তা** - Hacker AI আপনার প্রশ্নের উত্তর দেয়
-- 🎯 **টার্গেট বিশ্লেষণ** - ডোমেইন বা URL প্রবেশ করুন
-- 🛠️ **টুল সুপারিশ** - প্রতিটি ধাপের জন্য প্রয়োজনীয় টুলস
-- ⌨️ **কমান্ড জেনারেটর** - সরাসরি কপি-পেস্ট করার জন্য প্রস্তুত কমান্ড
-- 📊 **ওয়ার্কফ্লো গাইড** - ধাপে ধাপে নির্দেশনা
-- 💾 **Hunt History** - আপনার সমস্ত সন্ধান রেকর্ড করুন
+- 🤖 **AI-Powered Assistance** - Hacker AI answers your questions
+- 🎯 **Target Analysis** - Enter domain or URL to analyze
+- 🛠️ **Tool Recommendations** - Required tools for each step
+- ⌨️ **Command Generator** - Ready-to-use commands for copy-paste
+- 📊 **Workflow Guide** - Step-by-step guidance
+- 💾 **Hunt History** - Record all your findings
 
-## 🚀 শুরু করুন
+## 🚀 Getting Started
 
-### প্রয়োজনীয়তা
-- একটি আধুনিক ওয়েব ব্রাউজার (Chrome, Firefox, Safari, Edge)
-- ইন্টারনেট সংযোগ
+### Requirements
+- Modern web browser (Chrome, Firefox, Safari, Edge)
+- Internet connection
 
-### ইনস্টলেশন
+### Installation
 
-#### 1. **রিপোজিটরি ক্লোন করুন**
+#### 1. Clone the Repository
 ```bash
 git clone https://github.com/Shanto008SB/Hacker_Kal_AI.git
 cd Hacker_Kal_AI
 ```
 
-#### 2. **লোকালি চালান**
+#### 2. Run Locally
 
-**Live Server ব্যবহার করে (সুপারিশকৃত)**:
+**Using Live Server (Recommended)**:
 ```bash
-# VS Code এ Live Server এক্সটেনশন ইনস্টল করুন
-# তারপর index.html এ রাইট-ক্লিক করুন এবং "Open with Live Server" নির্বাচন করুন
+# Install Live Server extension in VS Code
+# Right-click on index.html → "Open with Live Server"
 ```
 
-**Python ব্যবহার করে**:
+**Using Python**:
 ```bash
 python -m http.server 8000
+# Then open: http://localhost:8000
 ```
 
-**Node.js ব্যবহার করে**:
+**Using Node.js**:
 ```bash
 npm install -g http-server
 http-server
 ```
 
-তারপর ব্রাউজারে খুলুন: `http://localhost:8000`
+**Using PHP**:
+```bash
+php -S localhost:8000
+```
 
-## 📁 প্রজেক্ট স্ট্রাকচার
+## 📁 Project Structure
 
 ```
 Hacker_Kal_AI/
-├── index.html          # প্রধান HTML ফাইল
-├── styles.css          # CSS স্টাইলিং
-├── script.js           # JavaScript লজিক
-├── README.md           # এই ফাইল
-├── SECURITY.md         # নিরাপত্তা নীতি
-├── CONTRIBUTING.md     # অবদান গাইড
-├── COMMANDS.md         # কমান্ড রেফারেন্স
-├── SETUP.md            # সেটআপ গাইড
-└── .github/            # GitHub কনফিগারেশন
+├── index.html          # Main HTML file
+├── styles.css          # CSS styling
+├── script.js           # JavaScript logic
+├── README.md           # This file
+├── SECURITY.md         # Security policy
+├── CONTRIBUTING.md     # Contribution guide
+├── COMMANDS.md         # Command reference
+├── SETUP.md            # Setup guide
+└── .github/            # GitHub configuration
 ```
 
-## 🛠️ ব্যবহৃত প্রযুক্তি
+## 🛠️ Technologies Used
 
-- **HTML5** - কাঠামো এবং মার্কআপ
-- **CSS3** - স্টাইলিং (Tailwind CSS)
-- **JavaScript (Vanilla)** - ইন্টারঅ্যাক্টিভিটি
-- **Font Awesome** - আইকন
-- **Canvas API** - ব্যাকগ্রাউন্ড অ্যানিমেশন
+- **HTML5** - Structure and markup
+- **CSS3** - Styling with Tailwind CSS
+- **JavaScript (Vanilla)** - Interactivity
+- **Font Awesome** - Icons
+- **Canvas API** - Background animations
 
-## 📚 ব্যবহারের নির্দেশনা
+## 📚 Usage Guide
 
-### 1. টার্গেট প্রবেশ করুন
+### 1. Enter Target
 ```
-উদাহরণ: example.com অথবা https://example.com/path
+Example: example.com or https://example.com/path
 ```
 
-### 2. "Start Hunting" ক্লিক করুন
-অ্যাপ্লিকেশন স্বয়ংক্রিয়ভাবে সুপারিশকৃত পদক্ষেপ প্রদর্শন করবে।
+### 2. Click "Start Hunting"
+The app will automatically show recommended steps.
 
-### 3. প্রতিটি ধাপের জন্য
-- টুলস তালিকা দেখুন
-- সুপারিশকৃত কমান্ড কপি করুন
-- "Ask AI" বোতাম দিয়ে অতিরিক্ত সহায়তা পান
+### 3. For Each Step
+- View required tools
+- Copy recommended command
+- Use "Ask AI" button for additional help
 
-### 4. নেভিগেট করুন
-- "Previous" এবং "Next" বোতাম ব্যবহার করে ধাপগুলি পরিবর্তন করুন
-- "New Target" দিয়ে নতুন শুরু করুন
+### 4. Navigate
+- Use "Previous" and "Next" buttons to move between steps
+- Click "New Target" to start over
 
-## 🔒 নিরাপত্তা নোট
+## 🔒 Security Notice
 
-⚠️ **গুরুত্বপূর্ণ**: এই টুলটি শুধুমাত্র **অনুমোদিত বাগ বাউন্টি প্রোগ্রাম** এবং **নৈতিক পরীক্ষার** জন্য ব্যবহার করুন। সবসময় যথাযথ অনুমতি নিন।
+⚠️ **IMPORTANT**: This tool is designed **ONLY for authorized bug bounty programs** and **ethical testing**. Always get proper permission before testing any system.
 
-আরও তথ্যের জন্য [SECURITY.md](SECURITY.md) দেখুন।
+For more information, see [SECURITY.md](SECURITY.md).
 
-## 🔧 উন্নয়ন
+## 🔧 Development
 
-### লোকাল পরিবর্তন করুন
+### Make Local Changes
 ```bash
-# ফাইল সম্পাদনা করুন
+# Edit files
 nano index.html
 nano styles.css
 nano script.js
 
-# ব্রাউজারে রিফ্রেশ করুন (Ctrl+F5 বা Cmd+Shift+R)
+# Refresh browser (Ctrl+F5 or Cmd+Shift+R)
 ```
 
-### পরিবর্তন GitHub এ পাঠান
+### Push Changes to GitHub
 ```bash
 git add .
-git commit -m "যা করেছেন তার বর্ণনা"
+git commit -m "Description of changes"
 git push origin main
 ```
 
-### GitHub Pages স্বয়ংক্রিয় আপডেট হবে
-~2 মিনিটের মধ্যে আপনার পরিবর্তন লাইভ হবে।
+### GitHub Pages Updates Automatically
+Your changes will be live in ~2 minutes.
 
-## 📊 ফিচার রোডম্যাপ
+## 🎯 Feature Roadmap
 
-- [ ] API ইন্টিগ্রেশন (Shodan, VirusTotal)
-- [ ] আরও ওয়ার্কফ্লো যোগ করুন
-- [ ] রিপোর্ট জেনারেটর
-- [ ] মাল্টি-ল্যাঙ্গুয়েজ সাপোর্ট
-- [ ] অ্যাডভান্সড ফিল্টারিং
+- [ ] API Integration (Shodan, VirusTotal)
+- [ ] More Workflows
+- [ ] Report Generator
+- [ ] Multi-Language Support
+- [ ] Advanced Filtering
 
-## 🐛 বাগ রিপোর্ট এবং অনুরোধ
+## 🐛 Bug Reports & Feature Requests
 
-সমস্যা খুঁজে পেলে বা বৈশিষ্ট্য অনুরোধ করতে চাইলে:
+Found an issue or want to suggest a feature?
 
-1. [Issues](https://github.com/Shanto008SB/Hacker_Kal_AI/issues) পৃষ্ঠা খুলুন
-2. "New Issue" ক্লিক করুন
-3. স্পষ্ট শিরোনাম এবং বর্ণনা যোগ করুন
+1. Visit [Issues](https://github.com/Shanto008SB/Hacker_Kal_AI/issues)
+2. Click "New Issue"
+3. Provide clear title and description
 
-## 🤝 অবদান রাখুন
+## 🤝 Contributing
 
-অবদান স্বাগত জানাই! দয়া করে [CONTRIBUTING.md](CONTRIBUTING.md) দেখুন।
+Contributions are welcome! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
-## 📄 লাইসেন্স
+## 📄 License
 
-এই প্রজেক্ট MIT লাইসেন্সের অধীন।
+This project is licensed under the MIT License.
 
-## 👤 লেখক
+## 👤 Author
 
 **Shanto008SB**
 - GitHub: [@Shanto008SB](https://github.com/Shanto008SB)
-- প্রজেক্ট: [Hacker_Kal_AI](https://github.com/Shanto008SB/Hacker_Kal_AI)
+- Project: [Hacker_Kal_AI](https://github.com/Shanto008SB/Hacker_Kal_AI)
 
-## ⭐ সাপোর্ট
+## ⭐ Support
 
-এই প্রজেক্ট পছন্দ হলে স্টার ⭐ দিন!
+If you like this project, please give it a star ⭐!
 
-## 📞 যোগাযোগ
+## 📞 Contact
 
-প্রশ্ন বা পরামর্শের জন্য [Issues](https://github.com/Shanto008SB/Hacker_Kal_AI/issues) ব্যবহার করুন।
+For questions or feedback, please use [Issues](https://github.com/Shanto008SB/Hacker_Kal_AI/issues).
 
 ---
 
-**শেষ আপডেট**: 28 জুন, 2026  
-**স্ট্যাটাস**: সক্রিয় উন্নয়ন 🚀
+**Last Updated**: June 28, 2026  
+**Status**: Active Development 🚀

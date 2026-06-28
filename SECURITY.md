@@ -1,186 +1,184 @@
-# 🔒 নিরাপত্তা নীতি
+# 🔒 Security Policy
 
-## নিরাপত্তা সম্পর্কে গুরুত্বপূর্ণ তথ্য
+## Important Security Information
 
-### ⚠️ দায়িত্বশীল ব্যবহার
+### ⚠️ Responsible Use
 
-এই প্রকল্পটি **শুধুমাত্র নৈতিক হ্যাকিং এবং বাগ বাউন্টি প্রোগ্রামে অনুমোদিত পরীক্ষার জন্য** ডিজাইন করা হয়েছে।
+This project is designed **ONLY for authorized bug bounty programs** and **ethical testing with permission**.
 
-**এটি অননুমোদিত অ্যাক্সেস, ডেটা চুরি বা অন্য কোনো অনুপযুক্ত কার্যকলাপের জন্য ব্যবহার করা হারাম এবং বেআইনি।**
-
----
-
-## 🛡️ সমর্থিত সংস্করণ
-
-| সংস্করণ | সমর্থিত | আপডেট স্থিতি |
-|---------|---------|----------------|
-| v2.0.x  | ✅ হ্যাঁ | সক্রিয় উন্নয়ন |
-| v1.0.x  | ✅ হ্যাঁ | নিরাপত্তা আপডেট |
-| < v1.0  | ❌ না  | সমর্থিত নয় |
+**Using this tool for unauthorized access, data theft, or any malicious activity is ILLEGAL and unethical.**
 
 ---
 
-## 🐛 নিরাপত্তা দুর্বলতা রিপোর্ট করুন
+## 🛡️ Supported Versions
 
-### দায়িত্বশীল প্রকাশ
-
-যদি আপনি এই প্রকল্পে একটি নিরাপত্তা দুর্বলতা আবিষ্কার করেন:
-
-1. **এটি প্রকাশ্যে রিপোর্ট করবেন না**
-2. **সরাসরি আমাদের কাছে যোগাযোগ করুন**
-
-### যোগাযোগের পদ্ধতি
-
-```
-ইমেইল: security@example.com (আপডেট করুন)
-GitHub Issues: প্রাইভেট নোট সহ
-```
-
-### রিপোর্টে অন্তর্ভুক্ত করুন
-
-- ✅ দুর্বলতার বর্ণনা
-- ✅ সংজ্ঞার ধাপ
-- ✅ সম্ভাব্য প্রভাব
-- ✅ সুপারিশকৃত সমাধান (যদি থাকে)
-
-### প্রতিক্রিয়া সময়সীমা
-
-- 📌 সাড়া দেওয়া: 24-48 ঘন্টা
-- 🔧 আপডেট: 2-4 সপ্তাহ (গুরুত্বের উপর নির্ভর করে)
-- 📢 প্রকাশ: 90 দিন
+| Version | Supported | Update Status |
+|---------|-----------|----------------|
+| v2.0.x  | ✅ Yes | Active Development |
+| v1.0.x  | ✅ Yes | Security Updates |
+| < v1.0  | ❌ No  | Not Supported |
 
 ---
 
-## 🔐 সম্মতি এবং আইনি বিষয়
+## 🐛 Report Security Vulnerabilities
 
-### আইনি প্রয়োজনীয়তা
+### Responsible Disclosure
 
-এই সফটওয়্যার ব্যবহার করার আগে আপনাকে অবশ্যই:
+If you find a security vulnerability:
 
-- ✅ সমস্ত প্রযোজ্য স্থানীয় এবং আন্তর্জাতিক আইন মেনে চলতে হবে
-- ✅ সিস্টেমের মালিক বা অনুমোদিত প্রতিনিধি থেকে স্পষ্ট অনুমতি পেতে হবে
-- ✅ সমস্ত বাগ বাউন্টি প্রোগ্রামের শর্ত মেনে চলতে হবে
-- ✅ বিশ্বাসিত তথ্য রক্ষা করতে হবে
+1. **DO NOT post it publicly**
+2. **Report it privately to us**
 
-### দায়িত্ব অস্বীকার
+### Contact Method
 
 ```
-এই সফটওয়্যার "যেমন আছে" সরবরাহ করা হয় কোন ওয়ারেন্টি ছাড়াই।
-লেখকরা কোন ক্ষতি, ডেটা হারানো বা আইনি পরিণতির জন্য 
-দায়বদ্ধ নন যা এই সরঞ্জাম ব্যবহারের ফলে হতে পারে।
+Email: security@example.com (Update this)
+GitHub Issues: Private note
+```
+
+### Include in Report
+
+- ✅ Vulnerability description
+- ✅ Steps to reproduce
+- ✅ Potential impact
+- ✅ Suggested fix (if you have one)
+
+### Response Timeline
+
+- 📌 Initial response: 24-48 hours
+- 🔧 Fix release: 2-4 weeks (depends on severity)
+- 📢 Public disclosure: 90 days
+
+---
+
+## ⚖️ Compliance and Legal
+
+### Legal Requirements
+
+Before using this software, you MUST:
+
+- ✅ Follow all applicable local and international laws
+- ✅ Get explicit written permission from the system owner
+- ✅ Comply with all bug bounty program rules
+- ✅ Protect confidential information
+
+### Disclaimer
+
+```
+THIS SOFTWARE IS PROVIDED "AS IS" WITHOUT WARRANTY.
+The authors are NOT responsible for any damages, data loss,
+or legal consequences resulting from use of this tool.
 ```
 
 ---
 
-## 🛠️ নিরাপত্তা সর্বোত্তম অনুশীলন
+## 🛠️ Security Best Practices
 
-### ব্যবহারকারীদের জন্য
+### For Users
 
-1. **সর্বদা অনুমোদন পান**
+1. **Always Get Permission**
    ```
-   টার্গেট সিস্টেমের মালিকের কাছ থেকে লিখিত অনুমোদন নিন
+   Get written approval from target system owner
    ```
 
-2. **নিয়মিত আপডেট করুন**
+2. **Keep Updated**
    ```bash
    git pull origin main
    ```
 
-3. **সংবেদনশীল তথ্য রক্ষা করুন**
+3. **Protect Sensitive Data**
    ```
-   - API কী লুকান (.env ফাইলে)
-   - সাক্ষ্য ভাগ করবেন না
-   - আউটপুট নিরাপদে সংরক্ষণ করুন
-   ```
-
-4. **VPN ব্যবহার করুন**
-   ```
-   পাবলিক নেটওয়ার্ক থেকে সংযোগ করলে VPN ব্যবহার করুন
+   - Hide API keys in .env file
+   - Don't share credentials
+   - Store results securely
    ```
 
-### ডেভেলপারদের জন্য
+4. **Use VPN**
+   ```
+   Use VPN when connecting from public networks
+   ```
 
-1. **নিরাপদ কোডিং**
+### For Developers
+
+1. **Secure Coding**
    ```javascript
-   // খারাপ: সংবেদনশীল ডেটা এম্বেড করবেন না
+   // Bad: Don't embed sensitive data
    const apiKey = "sk-1234567890";
    
-   // ভাল: পরিবেশ ভেরিয়েবল ব্যবহার করুন
+   // Good: Use environment variables
    const apiKey = process.env.API_KEY;
    ```
 
-2. **ইনপুট যাচাই করুন**
+2. **Input Validation**
    ```javascript
-   // সর্বদা ইউজার ইনপুট যাচাই করুন
    if (!isValidUrl(userInput)) {
      return handleError("Invalid input");
    }
    ```
 
-3. **নিয়মিত আপডেট করুন**
+3. **Regular Updates**
    ```bash
-   # নিরাপত্তা প্যাচ যাচাই করুন
    npm audit
    npm audit fix
    ```
 
 ---
 
-## 📋 OWASP শীর্ষ 10 সুরক্ষা
+## 📊 OWASP Top 10 Security
 
-এই প্রকল্পটি OWASP শীর্ষ 10 নিরাপত্তা ঝুঁকি বিবেচনা করে:
+This project considers OWASP Top 10 security risks:
 
-- ✅ **A1: ইনজেকশন** - ইনপুট স্যানিটাইজেশন
-- ✅ **A2: ভাঙা প্রমাণীকরণ** - সুরক্ষিত সেশন হ্যান্ডলিং
-- ✅ **A3: সংবেদনশীল ডেটা এক্সপোজার** - এনক্রিপশন
-- ✅ **A4: XML বাহ্যিক সত্তা (XXE)** - নিরাপদ পার্সিং
-- ✅ **A5: ভাঙা অ্যাক্সেস কন্ট্রোল** - অনুমতি যাচাই
-- ✅ **A6: নিরাপত্তা মিসকনফিগারেশন** - সঠিক সেটআপ
-- ✅ **A7: ক্রস-সাইট স্ক্রিপ্টিং (XSS)** - আউটপুট এনকোডিং
-- ✅ **A8: অসুরক্ষিত ডিসারিয়ালাইজেশন** - সতর্ক পার্সিং
-- ✅ **A9: উপাদান ব্যবহার করে পরিচিত দুর্বলতা** - আপডেট নিয়মিত
-- ✅ **A10: অপর্যাপ্ত লগিং এবং নিরীক্ষণ** - ইভেন্ট লগিং
+- ✅ A1: Injection - Input sanitization
+- ✅ A2: Broken Authentication - Secure session handling
+- ✅ A3: Sensitive Data Exposure - Encryption
+- ✅ A4: XML External Entity (XXE) - Safe parsing
+- ✅ A5: Broken Access Control - Permission verification
+- ✅ A6: Security Misconfiguration - Proper setup
+- ✅ A7: Cross-Site Scripting (XSS) - Output encoding
+- ✅ A8: Insecure Deserialization - Careful parsing
+- ✅ A9: Using Components with Known Vulnerabilities - Regular updates
+- ✅ A10: Insufficient Logging and Monitoring - Event logging
 
 ---
 
-## 🔍 নিয়মিত অডিট
+## 🔍 Regular Audits
 
-### কোড পর্যালোচনা
+### Code Review
 
 ```bash
-# নিরাপত্তার জন্য কোড পর্যালোচনা করুন
-# প্রতি মাসে অন্তত একবার
+# Review code for security
+# At least monthly
 ```
 
-### নির্ভরতা পর্যালোচনা
+### Dependency Review
 
 ```bash
-# বাহ্যিক লাইব্রেরি পরীক্ষা করুন
+# Check external libraries
 npm audit
 
-# দুর্বলতা খুঁজুন
+# Find vulnerabilities
 npm audit fix
 ```
 
 ---
 
-## 📞 নিরাপত্তা যোগাযোগ
+## 📞 Contact
 
-### আমাদের কাছে পৌঁছান
+### Reach Us
 
-| চ্যানেল | যোগাযোগ |
-|--------|--------|
+| Channel | Contact |
+|---------|----------|
 | **Email** | security@example.com |
 | **GitHub** | Private Issues |
 | **Twitter** | @Shanto008SB |
 
 ---
 
-## ✨ ধন্যবাদ
+## ✨ Thank You
 
-নিরাপত্তা সম্প্রদায়কে ধন্যবাদ তাদের দায়িত্বশীল প্রকাশের জন্য।
+Thank you to the security community for responsible disclosure.
 
 ---
 
-**শেষ আপডেট**: 28 জুন, 2026  
-⚖️ **আইনি নোট**: এই নীতি দাবিগুলি সমস্ত প্রযোজ্য আইনের অধীন।
+**Last Updated**: June 28, 2026  
+⚖️ **Legal Note**: This policy is subject to all applicable laws and regulations.

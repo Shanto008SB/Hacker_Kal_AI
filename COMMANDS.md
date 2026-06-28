@@ -1,39 +1,39 @@
-# 🛠️ সমস্ত কমান্ড রেফারেন্স
+# 🛠️ Complete Command Reference
 
-Hacker_Kal_AI এর জন্য সমস্ত ব্যবহারকারী কমান্ড এবং ডেভেলপার কমান্ড।
+All user and developer commands for Hacker_Kal_AI.
 
-## 📥 ক্লোনিং এবং সেটআপ
+## 📥 Cloning and Setup
 
-### রিপোজিটরি ক্লোন করুন
+### Clone Repository
 
 ```bash
-# HTTPS এর মাধ্যমে
+# HTTPS
 git clone https://github.com/Shanto008SB/Hacker_Kal_AI.git
 
-# SSH এর মাধ্যমে
+# SSH
 git clone git@github.com:Shanto008SB/Hacker_Kal_AI.git
 
-# GitHub CLI এর মাধ্যমে
+# GitHub CLI
 gh repo clone Shanto008SB/Hacker_Kal_AI
 ```
 
-### ডিরেক্টরিতে প্রবেশ করুন
+### Enter Directory
 
 ```bash
 cd Hacker_Kal_AI
 ```
 
-## 🚀 লোকাল সার্ভার চালান
+## 🚀 Running Local Server
 
-### অপশন 1: Live Server (VS Code) - সুপারিশকৃত
+### Option 1: Live Server (VS Code) - Recommended
 
 ```bash
-# VS Code এ:
-# 1. Live Server এক্সটেনশন ইনস্টল করুন
-# 2. index.html এ রাইট-ক্লিক → "Open with Live Server"
+# Install Live Server extension
+# Right-click index.html → "Open with Live Server"
+# Opens at http://localhost:5500
 ```
 
-### অপশন 2: Python হোস্ট করুন
+### Option 2: Python
 
 ```bash
 # Python 3.x
@@ -42,312 +42,258 @@ python -m http.server 8000
 # Python 2.x
 python -m SimpleHTTPServer 8000
 
-# তারপর ব্রাউজারে খুলুন: http://localhost:8000
+# Browser: http://localhost:8000
 ```
 
-### অপশন 3: Node.js হোস্ট করুন
+### Option 3: Node.js
 
 ```bash
-# http-server ইনস্টল করুন (প্রথমবার)
+# Install http-server
 npm install -g http-server
 
-# চালান
+# Run
 http-server
 
-# বা port নির্দিষ্ট করুন
-http-server -p 3000
+# Browser: http://localhost:8080
 ```
 
-### অপশন 4: PHP হোস্ট করুন
+### Option 4: PHP
 
 ```bash
-# PHP 5.4+
 php -S localhost:8000
-
-# তারপর ব্রাউজারে খুলুন: http://localhost:8000
+# Browser: http://localhost:8000
 ```
 
-## 🔧 গিট কমান্ড
+## 🔧 Git Commands
 
-### ব্রাঞ্চ পরিচালনা
+### Branch Management
 
 ```bash
-# নতুন ব্রাঞ্চ তৈরি করুন
+# Create new branch
 git checkout -b feature/NewFeature
 
-# শাখা তালিকা দেখুন
+# List branches
 git branch -a
 
-# শাখা মুছুন
+# Delete branch
 git branch -d feature/NewFeature
-git branch -D feature/NewFeature  # বাধ্যতামূলক মুছুন
+git branch -D feature/NewFeature  # Force delete
 ```
 
-### পরিবর্তন কমিট করুন
+### Commit Changes
 
 ```bash
-# সব ফাইল যোগ করুন
+# Add all files
 git add .
 
-# নির্দিষ্ট ফাইল যোগ করুন
+# Add specific file
 git add index.html
 
-# পরিবর্তন দেখুন
+# View changes
 git status
 
-# কমিট করুন
-git commit -m "feat: নতুন ফিচার যোগ করুন"
+# Commit
+git commit -m "feat: Add new feature"
 
-# বিস্তারিত বার্তা সহ কমিট করুন
-git commit -m "feat: নতুন AI ফিচার
-- AI চ্যাট ইন্টারফেস যোগ করা হয়েছে
-- নতুন UI উপাদান যোগ করা হয়েছে"
+# Detailed commit
+git commit -m "feat: Add new feature
+- Added feature X
+- Added feature Y"
 ```
 
-### পুশ এবং পুল
+### Push and Pull
 
 ```bash
-# GitHub এ পুশ করুন
+# Push to GitHub
 git push origin main
 
-# শাখা পুশ করুন
+# Push branch
 git push origin feature/NewFeature
 
-# GitHub থেকে পুল করুন
+# Pull from GitHub
 git pull origin main
 
-# Force Push (সাবধানে!)
+# Force Push (use carefully!)
 git push origin main --force
 ```
 
-### লজ এবং ইতিহাস
+### Logs and History
 
 ```bash
-# কমিট ইতিহাস দেখুন
+# View commits
 git log
 
-# সুন্দর লজ ফরম্যাট
+# Pretty log
 git log --oneline --graph --all
 
-# নির্দিষ্ট ফাইল পরিবর্তন দেখুন
+# File history
 git log -p index.html
 
-# সম্প্রতি পরিবর্তন দেখুন
+# Recent changes
 git diff
 
-# নির্দিষ্ট ফাইল পার্থক্য দেখুন
+# Specific file diff
 git diff index.html
 ```
 
-### সংস্করণ ট্যাগ
+### Tags
 
 ```bash
-# নতুন ট্যাগ তৈরি করুন
+# Create tag
 git tag v1.0.0
 
-# মন্তব্য সহ ট্যাগ
-git tag -a v1.0.0 -m "Version 1.0.0 রিলিজ"
+# Tag with message
+git tag -a v1.0.0 -m "Version 1.0.0 release"
 
-# ট্যাগ পুশ করুন
+# Push tags
 git push origin v1.0.0
-git push origin --tags  # সব ট্যাগ পুশ করুন
+git push origin --tags  # All tags
 
-# ট্যাগ তালিকা দেখুন
+# List tags
 git tag -l
 ```
 
-### বাতিল এবং রিসেট
+### Undo and Reset
 
 ```bash
-# সর্বশেষ কমিট বাতিল করুন (রাখা পরিবর্তন)
+# Soft reset (keep changes)
 git reset --soft HEAD~1
 
-# সর্বশেষ কমিট বাতিল করুন (স্টেজিং রাখা)
+# Mixed reset (keep changes staged)
 git reset --mixed HEAD~1
 
-# সর্বশেষ কমিট সম্পূর্ণ বাতিল করুন
+# Hard reset (remove all changes)
 git reset --hard HEAD~1
 
-# পরিবর্তন বাতিল করুন
+# Discard changes
 git checkout -- index.html
 
-# সব স্থানীয় পরিবর্তন বাতিল করুন
+# Discard all local changes
 git reset --hard
 ```
 
-## 📦 GitHub অপারেশন
+## 📦 GitHub Operations
 
-### Pull Request তৈরি করুন
+### Create Pull Request
 
 ```bash
-# ব্রাউজারে GitHub যান
-# 1. আপনার ফর্ক খুলুন
-# 2. "New Pull Request" ক্লিক করুন
-# 3. টাইটেল এবং বর্ণনা যোগ করুন
-# 4. "Create Pull Request" ক্লিক করুন
+# Push your branch first
+git push origin feature/YourFeature
+
+# Go to GitHub and create PR
+# Or use CLI:
+gh pr create --title "PR Title" --body "Description"
 ```
 
-### CLI দিয়ে PR তৈরি করুন
+### View PRs
 
 ```bash
-# GitHub CLI সহ
-gh pr create --title "নতুন ফিচার" --body "বর্ণনা"
-
-# আপনার PR দেখুন
+# List your PRs
 gh pr list
 
-# নির্দিষ্ট PR দেখুন
+# View specific PR
 gh pr view 1
 ```
 
-## 🔍 অনুসন্ধান এবং পরিদর্শন
+## 🔍 File Search and Discovery
 
-### ফাইল গঠন দেখুন
+### View File Structure
 
 ```bash
-# সব ফাইল দেখুন
+# List all files
 ls -la
 
-# ডিরেক্টরি গঠন দেখুন (ট্রি কমান্ড)
+# Directory tree
 tree -L 2
 
-# লুকানো ফাইল সহ
+# Find all files
 find . -type f
 ```
 
-### কন্টেন্ট অনুসন্ধান করুন
+### Search Content
 
 ```bash
-# সমস্ত ফাইলে খুঁজুন
+# Search in all files
 grep -r "searchTerm" .
 
-# নির্দিষ্ট ফাইল প্রকারে খুঁজুন
+# Search specific file types
 grep -r "searchTerm" --include="*.js"
 
-# কেস-সংবেদনশীল নয়
+# Case-insensitive
 grep -ri "searchTerm" .
 
-# লাইন নম্বর দেখান
+# Show line numbers
 grep -rn "searchTerm" .
 ```
 
-## 🗑️ ফাইল পরিচালনা
+## 🗑️ File Management
 
-### ফাইল তৈরি করুন
+### Create Files
 
 ```bash
-# নতুন ফাইল তৃতীয় করুন
+# Create empty file
 touch newfile.js
 
-# বিষয়বস্তু সহ তৃতীয় করুন
-echo "// নতুন ফাইল" > newfile.js
+# Create with content
+echo "// comment" > newfile.js
 ```
 
-### ফাইল সম্পাদনা করুন
+### Edit Files
 
 ```bash
-# nano সম্পাদক
+# nano editor
 nano index.html
 
-# vim সম্পাদক
+# vim editor
 vim index.html
 
-# VS Code খুলুন
+# Open in VS Code
 code .
 ```
 
-### ফাইল মুছুন
+### Delete Files
 
 ```bash
-# একটি ফাইল মুছুন
+# Delete file
 rm index.html
 
-# একটি ফাইল মুছুন (নিশ্চিত)
+# Confirm before delete
 rm -i index.html
 
-# ডিরেক্টরি মুছুন
+# Delete directory
 rm -r dirname
 ```
 
-## 🚀 ডেপ্লয়মেন্ট কমান্ড
+## 🚀 Deployment Commands
 
-### GitHub Pages (স্বয়ংক্রিয়)
+### GitHub Pages (Automatic)
 
 ```bash
-# শুধুমাত্র GitHub এ পুশ করুন
+# Just push to main
 git push origin main
 
-# GitHub Pages স্বয়ংক্রিয়ভাবে আপডেট হবে (2-5 মিনিটে)
+# GitHub Pages updates automatically (2-5 minutes)
 # https://shanto008sb.github.io/Hacker_Kal_AI/
 ```
 
-### কাস্টম ডোমেইনে
+## 💡 Quick Tips
 
 ```bash
-# CNAME ফাইল তৃতীয় করুন
-echo "yourdomain.com" > CNAME
+# Everything in one line
+git add . && git commit -m "fix" && git push origin main
 
-# কমিট এবং পুশ করুন
-git add CNAME
-git commit -m "feat: কাস্টম ডোমেইন যোগ করুন"
-git push origin main
-```
-
-## 📊 অন্যান্য উপযোগী কমান্ড
-
-### রিমোট রিপোজিটরি পরিচালনা
-
-```bash
-# রিমোট দেখুন
-git remote -v
-
-# নতুন রিমোট যোগ করুন
-git remote add upstream https://github.com/ORIGINAL_OWNER/REPO.git
-
-# রিমোট সিঙ্ক করুন
-git fetch upstream
-git merge upstream/main
-```
-
-### ফাইল পার্মিশন
-
-```bash
-# বাস্তবায়ন যোগ্য করুন
-chmod +x script.js
-
-# পাঠযোগ্য করুন
-chmod 644 index.html
-```
-
-### সার্ভার পরিচালনা বন্ধ করুন
-
-```bash
-# Ctrl+C ব্যবহার করুন (সব সিস্টেমে)
-# টার্মিনালে Ctrl+C প্রেস করুন
-
-# পোর্ট খুঁজুন এবং বন্ধ করুন
-lsof -i :8000  # ফাইন্ড প্রসেস
-kill -9 PID    # প্রসেস বন্ধ করুন
-```
-
-## 💡 দ্রুত টিপস
-
-```bash
-# সব এক লাইনে
-git add . && git commit -m "ফিক্স" && git push origin main
-
-# একটি পূর্ববর্তী সংস্করণে ফিরে যান
+# Go back to previous commit
 git checkout <commit-hash>
 
-# স্টেশ এবং পরে প্রয়োগ করুন
+# Stash and apply
 git stash
 git stash pop
 
-# বর্তমান শাখার নাম দেখুন
+# Current branch name
 git rev-parse --abbrev-ref HEAD
 ```
 
 ---
 
-**শেষ আপডেট**: 28 জুন, 2026  
-আরও সাহায্যের জন্য: `git help [command]`
+**Last Updated**: June 28, 2026  
+For more help: `git help [command]`
